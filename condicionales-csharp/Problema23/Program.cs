@@ -1,6 +1,22 @@
-// Problema 23
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 23");
+Console.Write("Ingrese el usuario: ");
+string usuario = Console.ReadLine()!;
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+if (usuario != "aprendiz")
+{
+    Console.WriteLine("Usuario no encontrado");
+}
+else
+{
+    Console.Write("Ingrese la contraseña: ");
+    string contrasena = Console.ReadLine()!;
+
+    if (contrasena == "Sena2026")
+    {
+        Console.WriteLine("Bienvenido");
+    }
+    else
+    {
+        Console.WriteLine("Contraseña incorrecta");
+    }
+}
