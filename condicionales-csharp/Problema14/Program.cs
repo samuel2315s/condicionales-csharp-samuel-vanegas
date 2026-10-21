@@ -1,6 +1,10 @@
-// Problema 14
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 14");
+Console.Write("Ingrese la nota final: ");
+double nota = double.Parse(
+    Console.ReadLine()!.Replace(',', '.'),
+    System.Globalization.CultureInfo.InvariantCulture
+);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+string estado = nota >= 3.0 ? "Aprobado" : "Reprobado";
+
+Console.WriteLine($"Nota: {nota.ToString("0.0", System.Globalization.CultureInfo.GetCultureInfo("es-CO"))} - {estado}");
