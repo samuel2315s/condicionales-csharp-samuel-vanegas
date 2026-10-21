@@ -1,6 +1,10 @@
-// Problema 05
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 05");
+Console.Write("Ingrese el primer número: ");
+int numero1 = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+Console.Write("Ingrese el segundo número: ");
+int numero2 = int.Parse(Console.ReadLine()!);
+
+int mayor = numero1 >= numero2 ? numero1 : numero2;
+
+Console.WriteLine($"El mayor es {mayor}");
