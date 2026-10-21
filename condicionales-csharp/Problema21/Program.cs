@@ -1,6 +1,7 @@
-// Problema 21
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 21");
+Console.Write("Ingrese la cantidad de artículos: ");
+int cantidad = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+string mensaje = $"Tienes {cantidad} artículo{(cantidad == 1 ? "" : "s")} en el carrito";
+
+Console.WriteLine(mensaje);
