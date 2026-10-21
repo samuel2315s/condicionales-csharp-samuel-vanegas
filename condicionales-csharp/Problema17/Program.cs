@@ -1,6 +1,22 @@
-// Problema 17
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 17");
+Console.Write("Ingrese el comando: ");
+string comando = Console.ReadLine()!.ToLower();
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+switch (comando)
+{
+    case "play":
+        Console.WriteLine("Reproduciendo...");
+        break;
+    case "pause":
+        Console.WriteLine("En pausa");
+        break;
+    case "stop":
+        Console.WriteLine("Detenido");
+        break;
+    case "next":
+        Console.WriteLine("Siguiente canción");
+        break;
+    default:
+        Console.WriteLine("Comando no reconocido");
+        break;
+}
