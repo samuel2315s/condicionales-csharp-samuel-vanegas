@@ -1,6 +1,13 @@
-// Problema 09
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 09");
+Console.Write("Ingrese el año: ");
+int anio = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+if ((anio % 4 == 0 && anio % 100 != 0) ||
+    anio % 400 == 0)
+{
+    Console.WriteLine("Bisiesto");
+}
+else
+{
+    Console.WriteLine("No bisiesto");
+}

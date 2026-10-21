@@ -1,13 +1,15 @@
 # Problema 09
 
 ## Enunciado
-(Pega aquí el enunciado del problema.)
+Un año es bisiesto si es divisible entre 4 y no entre 100, o si es divisible entre 400. Determina si un año dado es bisiesto.
+
+- 2024 → `Bisiesto` · 1900 → `No bisiesto` · 2000 → `Bisiesto`
 
 ## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+if-else con operadores lógicos.
 
 ## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
+Se utiliza if-else con operadores lógicos porque la condición de año bisiesto combina varias reglas de divisibilidad que deben cumplirse simultáneamente o como alternativa.
 
 ## Evidencia
 ![Salida](evidencias/salida.png)
