@@ -1,6 +1,21 @@
-// Problema 10
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 10");
+object dato = "Otro";
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+switch (dato)
+{
+    case string texto:
+        Console.WriteLine($"Texto de {texto.Length} caracteres");
+        break;
+    case int entero:
+        Console.WriteLine($"Entero: {entero}");
+        break;
+    case double decimalDato:
+        Console.WriteLine($"Decimal: {decimalDato}");
+        break;
+    case bool booleano:
+        Console.WriteLine($"Booleano: {booleano}");
+        break;
+    default:
+        Console.WriteLine("Tipo no reconocido");
+        break;
+}
