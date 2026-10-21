@@ -13,4 +13,4 @@ if-else
 permite decidir entre dos resultados según si la edad es de 16 años o más.
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](./evidencias/image.png)

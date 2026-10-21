@@ -15,7 +15,7 @@ dotnet run --project Problema01
 ## Índice de problemas
 | # | Título | Carpeta |
 |---|--------|---------|
-| 01 | (título del problema) | [Problema01](Problema01/) |
+| 01 | Registro Electoral | [Problema01](Problema01/) |
 | 02 | (título del problema) | [Problema02](Problema02/) |
 | 03 | (título del problema) | [Problema03](Problema03/) |
 | 04 | (título del problema) | [Problema04](Problema04/) |
