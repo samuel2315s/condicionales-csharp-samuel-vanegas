@@ -1,6 +1,22 @@
-// Problema 12
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 12");
+Console.Write("¿Tiene empleo? (si/no): ");
+string empleo = Console.ReadLine()!.ToLower();
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+if (empleo == "si")
+{
+    Console.Write("Ingrese el ingreso mensual: ");
+    decimal ingreso = decimal.Parse(Console.ReadLine()!);
+
+    if (ingreso >= 2500000)
+    {
+        Console.WriteLine("Crédito alto aprobado");
+    }
+    else
+    {
+        Console.WriteLine("Crédito básico aprobado");
+    }
+}
+else
+{
+    Console.WriteLine("Crédito rechazado");
+}
