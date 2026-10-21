@@ -1,6 +1,20 @@
-// Problema 08
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 08");
+Console.Write("Ingrese una letra minúscula: ");
+string entrada = Console.ReadLine()!;
+char letra = entrada.Length == 1 ? entrada[0] : '\0';
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+if (letra >= 'a' && letra <= 'z')
+{
+    if ("aeiou".Contains(letra))
+    {
+        Console.WriteLine("Es vocal");
+    }
+    else
+    {
+        Console.WriteLine("Es consonante");
+    }
+}
+else
+{
+    Console.WriteLine("No es una letra");
+}

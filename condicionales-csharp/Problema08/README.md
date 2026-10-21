@@ -1,13 +1,15 @@
 # Problema 08
 
 ## Enunciado
-(Pega aquí el enunciado del problema.)
+Lee una letra minúscula e indica si es vocal (a, e, i, o, u) o consonante. Si el carácter no es una letra del alfabeto, debe mostrar `No es una letra`.
+
+- ‘e’ → `Es vocal` · ‘m’ → `Es consonante` · ‘7’ → `No es una letra`
 
 ## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+if-else
 
 ## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
+hay que distinguir las vocales, las demás letras minúsculas del alfabeto y los caracteres que no son letras.
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](./evidencias/image.png)
