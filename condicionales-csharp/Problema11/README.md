@@ -1,13 +1,17 @@
 # Problema 11
 
 ## Enunciado
-(Pega aquí el enunciado del problema.)
+Define un tipo con los estados posibles de un semáforo: Rojo, Amarillo y Verde. Según el estado actual, el programa imprime la instrucción para el conductor:
+
+- Rojo → `Deténgase`
+- Amarillo → `Precaución, prepárese para detenerse`
+- Verde → `Avance`
 
 ## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+enum y switch.
 
 ## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
+Se utiliza enum para representar únicamente los estados definidos del semáforo y switch porque cada estado requiere una instrucción diferente.
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](evidencias/image.png)
