@@ -1,6 +1,31 @@
-// Problema 16
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 16");
+Console.Write("Ingrese X: ");
+int x = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+Console.Write("Ingrese Y: ");
+int y = int.Parse(Console.ReadLine()!);
+
+if (x == 0 && y == 0)
+{
+    Console.WriteLine("Origen");
+}
+else if (x == 0 || y == 0)
+{
+    Console.WriteLine("Sobre un eje");
+}
+else if (x > 0 && y > 0)
+{
+    Console.WriteLine("Primer cuadrante");
+}
+else if (x < 0 && y > 0)
+{
+    Console.WriteLine("Segundo cuadrante");
+}
+else if (x < 0 && y < 0)
+{
+    Console.WriteLine("Tercer cuadrante");
+}
+else
+{
+    Console.WriteLine("Cuarto cuadrante");
+}
