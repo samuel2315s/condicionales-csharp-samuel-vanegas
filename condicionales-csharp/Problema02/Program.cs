@@ -1,5 +1,5 @@
 
-Console.Write("Ingrese el peso en kg: ");
+Console.Write("Ingrese el peso en kg : ");
 double peso = double.Parse(Console.ReadLine()!);
 
 int tarifa;
