@@ -1,5 +1,5 @@
 
-Console.Write("Ingrese la edad: ");
+Console.Write("Ingrese la edad : ");
 int edad = int.Parse(Console.ReadLine()!);
 
 if (edad >= 16)
