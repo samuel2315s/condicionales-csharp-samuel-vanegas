@@ -1,6 +1,28 @@
-// Problema 19
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 19");
+Console.Write("Ingrese la velocidad en km/h: ");
+double velocidad = double.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+string sancion;
+
+if (velocidad < 0)
+{
+    sancion = "Lectura inválida";
+}
+else if (velocidad <= 50)
+{
+    sancion = "Sin infracción";
+}
+else if (velocidad <= 70)
+{
+    sancion = "Multa leve";
+}
+else if (velocidad <= 90)
+{
+    sancion = "Multa grave";
+}
+else
+{
+    sancion = "Multa gravísima e inmovilización";
+}
+
+Console.WriteLine(sancion);
