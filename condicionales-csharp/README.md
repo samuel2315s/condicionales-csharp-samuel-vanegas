@@ -16,8 +16,8 @@ dotnet run --project Problema01
 | # | Título | Carpeta |
 |---|--------|---------|
 | 01 | Registro Electoral | [Problema01](Problema01/) |
-| 02 | (título del problema) | [Problema02](Problema02/) |
-| 03 | (título del problema) | [Problema03](Problema03/) |
+| 02 | Tarifa de envío por peso | [Problema02](Problema02/) |
+| 03 | Menú de cajero automático | [Problema03](Problema03/) |
 | 04 | (título del problema) | [Problema04](Problema04/) |
 | 05 | (título del problema) | [Problema05](Problema05/) |
 | 06 | (título del problema) | [Problema06](Problema06/) |
