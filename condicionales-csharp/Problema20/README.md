@@ -1,13 +1,15 @@
 # Problema 20
 
 ## Enunciado
-(Pega aquí el enunciado del problema.)
+Dado el número de un mes (1 a 12) de un año no bisiesto, imprime cuántos días tiene. Varios meses comparten la misma cantidad de días. Un número fuera de rango imprime `Mes inválido`.
+
+- 4 → `30 días` · 2 → `28 días` · 12 → `31 días` · 13 → `Mes inválido`
 
 ## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+switch con casos agrupados
 
 ## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
+Se utiliza switch con casos agrupados porque varios meses tienen la misma cantidad de días y pueden compartir una respuesta sin repetir instrucciones.
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](evidencias/image.png)

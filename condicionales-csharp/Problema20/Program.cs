@@ -1,6 +1,28 @@
-// Problema 20
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 20");
+Console.Write("Ingrese el número del mes: ");
+int mes = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+switch (mes)
+{
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        Console.WriteLine("31 días");
+        break;
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        Console.WriteLine("30 días");
+        break;
+    case 2:
+        Console.WriteLine("28 días");
+        break;
+    default:
+        Console.WriteLine("Mes inválido");
+        break;
+}
