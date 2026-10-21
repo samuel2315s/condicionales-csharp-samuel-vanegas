@@ -4,7 +4,7 @@ Console.WriteLine("2. Retirar");
 Console.WriteLine("3. Depositar");
 Console.WriteLine("4. Salir");
 Console.WriteLine();
-Console.Write("Seleccione una opción (1-4): ");
+Console.Write("Seleccione una opción (1- 4): ");
 
 int opcion = int.Parse(Console.ReadLine()!);
 
