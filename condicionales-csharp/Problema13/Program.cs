@@ -1,6 +1,15 @@
-// Problema 13
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 13");
+Console.Write("Ingrese el código del país: ");
+string codigo = Console.ReadLine()!.ToUpper();
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+string pais = codigo switch
+{
+    "CO" => "Colombia",
+    "MX" => "México",
+    "AR" => "Argentina",
+    "PE" => "Perú",
+    "CL" => "Chile",
+    _ => "País no registrado"
+};
+
+Console.WriteLine(pais);
