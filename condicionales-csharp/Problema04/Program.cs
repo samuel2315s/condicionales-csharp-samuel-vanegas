@@ -1,6 +1,11 @@
-// Problema 04
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 04");
+Console.Write("Ingrese el nivel de batería: ");
+int bateria = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+if (bateria < 15)
+{
+    Console.WriteLine("Batería baja: conecte el cargador");
+}
+
+Console.WriteLine($"Nivel actual: {bateria} %");
+
