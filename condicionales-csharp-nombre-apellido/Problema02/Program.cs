@@ -1,6 +1,29 @@
-// Problema 02
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 02");
+Console.Write("Ingrese el peso en kg: ");
+double peso = double.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+int tarifa;
+
+if (peso <= 0)
+{
+    tarifa = 0;
+    Console.WriteLine("Peso inválido");
+}
+else if (peso < 1)
+{
+    tarifa = 8000;
+}
+else if (peso < 5)
+{
+    tarifa = 15000;
+}
+else if (peso < 20)
+{
+    tarifa = 32000;
+}
+else
+{
+    tarifa = 60000;
+}
+
+Console.WriteLine($"Tarifa: ${tarifa:N0}");
