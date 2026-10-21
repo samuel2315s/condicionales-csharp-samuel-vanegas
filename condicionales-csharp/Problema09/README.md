@@ -12,4 +12,4 @@ if-else con operadores lógicos.
 Se utiliza if-else con operadores lógicos porque la condición de año bisiesto combina varias reglas de divisibilidad que deben cumplirse simultáneamente o como alternativa.
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](./evidencias/image.png)
