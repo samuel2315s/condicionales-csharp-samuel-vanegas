@@ -1,13 +1,15 @@
 # Problema 07
 
 ## Enunciado
-(Pega aquí el enunciado del problema.)
+Lee un número entero e indica si es positivo, negativo o cero.
+
+- 8 → `Positivo` · -5 → `Negativo` · 0 → `Cero`
 
 ## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+if else-if
 
 ## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
+existen tres resultados posibles: positivo, negativo y cero
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](./evidencias/image.png)

@@ -1,6 +1,16 @@
-// Problema 07
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 07");
+Console.Write("Ingrese un número entero: ");
+int numero = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+if (numero > 0)
+{
+    Console.WriteLine("Positivo");
+}
+else if (numero < 0)
+{
+    Console.WriteLine("Negativo");
+}
+else
+{
+    Console.WriteLine("Cero");
+}
