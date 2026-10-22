@@ -1,6 +1,20 @@
-// Problema 29
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 29");
+Console.Write("Ingrese el rol: ");
+string rol = Console.ReadLine()!.ToLower();
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+Console.Write("Ingrese la hora (0-23): ");
+int hora = int.Parse(Console.ReadLine()!);
+
+bool permitido =
+    rol == "admin" ||
+    (rol == "instructor" && hora >= 6 && hora <= 21) ||
+    (rol == "aprendiz" && hora >= 6 && hora <= 18);
+
+if (permitido)
+{
+    Console.WriteLine("Acceso permitido");
+}
+else
+{
+    Console.WriteLine("Acceso denegado");
+}
