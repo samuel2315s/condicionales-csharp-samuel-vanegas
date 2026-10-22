@@ -1,6 +1,20 @@
-// Problema 24
-// Enunciado: (escribe aquí el enunciado del problema)
 
-Console.WriteLine("Problema 24");
+Console.Write("Ingrese el número del día (1-7): ");
+int dia = int.Parse(Console.ReadLine()!);
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+string resultado;
+
+if (dia >= 1 && dia <= 5)
+{
+    resultado = "Día hábil";
+}
+else if (dia == 6 || dia == 7)
+{
+    resultado = "Fin de semana";
+}
+else
+{
+    resultado = "Día inválido";
+}
+
+Console.WriteLine(resultado);
