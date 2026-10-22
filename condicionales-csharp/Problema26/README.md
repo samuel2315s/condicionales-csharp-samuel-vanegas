@@ -1,13 +1,23 @@
 # Problema 26
 
 ## Enunciado
-(Pega aquí el enunciado del problema.)
+Un peaje identifica el vehículo con una letra y asigna la tarifa a cobrar:
+
+- ‘M’ moto: $0 (exenta)
+- ‘A’ automóvil: $12.000
+- ‘B’ bus: $25.000
+- ‘C’ camión: $38.000
+- Otra letra: se lanza una excepción con el mensaje `Categoría desconocida`
+
+Imprime `Categoría X - Tarifa: $Y`.
 
 ## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+switch con excepción.
 
 ## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
+Se utiliza switch porque cada letra identifica una categoría de
+vehículo con una tarifa fija, mientras que una categoría desconocida debe
+generar la excepción indicada.
 
 ## Evidencia
-![Salida](evidencias/salida.png)
+![Salida](evidencias/image.png)
